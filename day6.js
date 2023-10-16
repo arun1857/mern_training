@@ -14,19 +14,19 @@
 
 // abc(4,5, add);
 
-let abc = new Promise(function(resolve, reject){
-    let h = 10
-    if (h == 0){
-        resolve("kal Bihari haarege");
-    } else {
-        reject("zarur haarege");
-    }
-});
+// let abc = new Promise(function(resolve, reject){
+//     let h = 10
+//     if (h == 0){
+//         resolve("kal Bihari haarege");
+//     } else {
+//         reject("zarur haarege");
+//     }
+// });
 
-abc.then(
-    function(value) { console.log(value) },
-    function(error) { console.log(error) }
-)
+// abc.then(
+//     function(value) { console.log(value) },
+//     function(error) { console.log(error) }
+// )
 
 
 
